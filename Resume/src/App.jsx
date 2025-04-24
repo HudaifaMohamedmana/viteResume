@@ -1,9 +1,6 @@
-import { useState } from 'react'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -15,6 +12,7 @@ function App() {
      <h3> Hudaifa Mohamedmana</h3>
 
     </div>
+    <div></div>
           <div className="MySocial">
         <a href="https://www.linkedin.com/in/hudaifa-mohamedmana-16296528a/">
           <div className="Sites" id="Site_a">
@@ -51,6 +49,16 @@ function App() {
       </div>
 
     </nav>
+    <div>
+      <h1>Project One</h1>
+    <iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/dGlPCSKLN2M" 
+  title="YouTube video player" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowfullscreen>
+</iframe>
+    </div>
       <div className="introduction">
         <div className="IntElement" id="ProfessionalSummary">
           <h4>Professional Summary :</h4>
@@ -82,13 +90,6 @@ function App() {
 
       <div className="Descriptions">
         <p>© 2024 Hudaifa-WebBag, Resume</p>
-      </div>
-
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
       </div>
     </>
   )

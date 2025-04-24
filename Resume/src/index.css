@@ -3,7 +3,7 @@ body{
 }
 nav{
   border: 3px solid black;
-  padding: 3px;
+  padding:8px;
   height: 5vh;
   margin: 1em;
   display: flex;
@@ -32,20 +32,24 @@ nav{
   display:flex;
   flex-wrap:wrap;
   justify-content: space-evenly;
-  height: 80%;
+  /* height: 100%; */
+  /* background-color: green; */
+
 }
 .Sites {
+  align-items: center;
+  margin: 10px;
+
   border-radius: 22px;
   /* font-size:22px; */
   border: solid grey;
-  /* margin: 20px; */
   /* width: 100%; */
-  padding: 12px;
+  padding: 4px;
   justify-content: space-evenly;
   background-color: black;
   color: white;
-  /* display: flex; */
-  height: 80%;
+  display: flex;
+  height: 5vh;
 
 }
 
@@ -62,10 +66,9 @@ nav{
 }
 
 .bizPic {
-  margin: 1em;
   border-radius: 50%;
-  height: 60px;
-  width: 60px;
+  height: 80%;
+  width: 80%;
   border: solid white;
 }
 .introduction {
