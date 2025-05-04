@@ -50,18 +50,24 @@ function App() {
           </a>
         </div>
       </nav>
-      <div>
-        <h1>Projects</h1>
-        <h2>Amwaj Cafe</h2>
-        <iframe
-          src="https://www.youtube.com/embed/D2PLTn77H5g"
-          allowfullscreen
-        ></iframe>
-        <h2>Movie API</h2>
-        <iframe
-          src="https://www.youtube.com/embed/WBNGkHceQbo"
-          allowfullscreen
-        ></iframe>
+      <div className="projectsContainer">
+        <h1>Projects:-</h1>
+        <div className="projects">
+          <div className="project">
+            <h2>Amwaj Cafe</h2>
+            <iframe
+              src="https://www.youtube.com/embed/D2PLTn77H5g"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div className="project">
+            <h2>Movie API</h2>
+            <iframe
+              src="https://www.youtube.com/embed/WBNGkHceQbo"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
       </div>
       <div className="introduction">
         <div className="IntElement" id="ProfessionalSummary">
