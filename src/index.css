@@ -135,17 +135,19 @@ nav {
   }
 
   .MySocial {
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
   }
 
   .Sites {
-    width: 100%;
     justify-content: center;
-    margin: 5px 0;
   }
 
   .projects {
     flex-direction: column;
+    text-align: center;
+
+
   }
 
   .projectsContainer h1 {
