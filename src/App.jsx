@@ -7,12 +7,13 @@ function App() {
         <div class="int">
 
 
-          <h3> Hudaifa.dev</h3>
+          <h1> Hudaifa.dev</h1>
+          
         </div>
     
       </nav>
       <div className="projectsContainer">
-        <h1>Projects:-</h1>
+        <h3>Projects:-</h3>
         <div className="projects">
           <div className="project">
             <h2>Amwaj Cafe</h2>
