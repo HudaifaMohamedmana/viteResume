@@ -1,5 +1,11 @@
+:root {
+  --main-color: rgb(22, 22, 22);
+  --sec-color: rgb(146, 255, 219);
+
+}
 body {
-  background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvcHgxMTAwMzgxLWltYWdlLWpvYjYzMC1uXzEtbDBnMDdvdWUuanBn.jpg");
+  background-color: var(--main-color);
+
 }
 nav {
   border: 3px solid black;
@@ -17,21 +23,22 @@ nav {
   display: flex;
   height: 100%;
   margin: 10px;
+  color: var(--sec-color) ;
 }
-.int img {
+/* .int img {
   align-items: center;
   height: 100%;
   border-radius: 50%;
-}
-.int h3 {
+} */
+/* .int h3 {
   text-align: center;
-}
+} */
 
 .MySocial {
   text-align: center;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
   /* height: 100%; */
   /* background-color: green; */
 }
@@ -39,14 +46,13 @@ nav {
   align-items: center;
   margin: 10px;
 
-  border-radius: 22px;
+  border-radius: 50%;
   /* font-size:22px; */
-  border: solid grey;
+  /* border: solid grey; */
   /* width: 100%; */
   padding: 4px;
   justify-content: space-evenly;
-  background-color: black;
-  color: white;
+  background-color: rgb(75, 75, 75);
   display: flex;
   height: 5vh;
 }
@@ -54,12 +60,17 @@ nav {
 #Site_a:hover {
   color: white;
   background-color: lightblue;
+    border: solid white;
+
 }
 #Site_b:hover {
-  background-color: rgb(66, 66, 71);
+  background-color: black;
+    border: solid white;
+
 }
 #Site_c:hover {
-  background-color: rgb(201, 97, 32);
+  background-color: red;
+  border: solid white;
 }
 
 .bizPic {
@@ -68,22 +79,22 @@ nav {
   width: 80%;
   border: solid white;
 }
-.introduction {
+/* .introduction {
   padding: 2rem;
   background-color: #fff;
   margin: 1rem;
   border-radius: 10px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
+} */
 
-.IntElement h4 {
+/* .IntElement h4 {
   color: #800000;
   margin-bottom: 0.5rem;
-}
+} */
 
-.IntElement p {
+/* .IntElement p {
   line-height: 1.6;
-}
+} */
 
 .Descriptions {
   background-color: gray;
@@ -91,6 +102,7 @@ nav {
   padding: 2em;
   justify-content: space-evenly;
   text-align: center;
+  justify-content: end;
 }
 
 /* -------------------------------------video-------------------------------- */
@@ -99,12 +111,12 @@ nav {
   padding: 10px;
 }
 .projectsContainer h1 {
-  border: 3px solid ;
+  /* border: 3px solid ; */
   padding: 5px;
-  background-color: black;
-  color: white;
-  border-radius: 10px;
-  margin-right: 75%;
+  /* background-color: black; */
+  color: var(--sec-color);
+  /* border-radius: 10px; */
+  /* margin-right: 75%; */
 }
 
 .projects {
@@ -136,7 +148,7 @@ nav {
 
   .MySocial {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
 
   .Sites {
